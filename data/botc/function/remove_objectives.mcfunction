@@ -1,0 +1,3 @@
+scoreboard objectives remove variables
+scoreboard objectives remove players
+scoreboard objectives remove housesPlayers

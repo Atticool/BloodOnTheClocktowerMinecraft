@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "A Custom Datapack for running Blood on the Clocktower",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": 101
+  }
+}
