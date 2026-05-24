@@ -1,2 +1,1 @@
-$say $(house_number) $(player_number)
 $scoreboard players set .house_$(house_number) housesPlayers $(player_number)

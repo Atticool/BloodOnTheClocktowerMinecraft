@@ -1,0 +1,1 @@
+$give @p minecraft:compass[lore=[[{"text":"Pointing to House $(house_number)","italic":false}]],minecraft:custom_name=[{"text":"House Compass","italic":false}],rarity=rare,minecraft:lodestone_tracker={target:{pos: [I; $(house_x), $(house_y), $(house_z)], dimension:"minecraft:overworld"},tracked: false}]
