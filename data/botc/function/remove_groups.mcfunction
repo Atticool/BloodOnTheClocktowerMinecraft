@@ -1,3 +1,4 @@
+persistentgroup remove Town
 persistentgroup remove 01
 persistentgroup remove 02
 persistentgroup remove 03

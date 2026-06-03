@@ -1,3 +1,4 @@
+persistentgroup add Town isolated
 persistentgroup add 01 isolated
 persistentgroup add 02 isolated
 persistentgroup add 03 isolated
