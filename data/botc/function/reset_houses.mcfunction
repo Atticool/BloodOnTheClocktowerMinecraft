@@ -1,0 +1,2 @@
+function botc:remove_house_objectives
+function botc:create_house_objectives
