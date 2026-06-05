@@ -1,3 +1,3 @@
-tag @p add alive
-tag @p remove dead
-team join alive @p
+tag @s add alive
+tag @s remove dead
+team join alive @s
