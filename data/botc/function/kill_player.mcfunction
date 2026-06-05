@@ -1,0 +1,1 @@
+$execute as @e[scores={players=$(number)}] run function botc:join_dead_from_alive
