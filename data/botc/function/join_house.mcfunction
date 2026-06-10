@@ -5,9 +5,9 @@ $tellraw @p "Joining House $(number)"
 $function botc:remove_player_from_all_houses with storage botc:temp_jh_$(number)
 $function botc:join_house_sub with storage botc:temp_jh_$(number)
 
-$execute store result storage botc:temp_jh_$(number) house_x int 1 run scoreboard players get .house_$(number)_x houses
-$execute store result storage botc:temp_jh_$(number) house_y int 1 run scoreboard players get .house_$(number)_y houses
-$execute store result storage botc:temp_jh_$(number) house_z int 1 run scoreboard players get .house_$(number)_z houses
+$execute store result storage botc:temp_jh_$(number) house_x int 1 run scoreboard players get .house_$(number)_x housesCoords
+$execute store result storage botc:temp_jh_$(number) house_y int 1 run scoreboard players get .house_$(number)_y housesCoords
+$execute store result storage botc:temp_jh_$(number) house_z int 1 run scoreboard players get .house_$(number)_z housesCoords
 
 clear @p compass[rarity=rare]
 $function botc:give_compass with storage botc:temp_jh_$(number)
