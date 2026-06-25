@@ -1,0 +1,1 @@
+execute as @a if score @s nominations = .highestVote variables run tag @s add onTheBlock

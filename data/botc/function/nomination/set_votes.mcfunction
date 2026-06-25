@@ -1,0 +1,1 @@
+$scoreboard players set @a[tag=nominated] nominations $(number)

@@ -1,0 +1,1 @@
+execute if score .canVote variables matches 1 run scoreboard players add .currentVote variables 1

@@ -1,0 +1,1 @@
+execute as @a[tag=nominated] run function botc:join_dead_from_alive

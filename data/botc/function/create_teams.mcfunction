@@ -8,11 +8,13 @@ team modify dead color gray
 team modify alive color green 
 team modify nominated color red
 team modify nominatedDead color red
+team modify nominatedStoryteller color dark_red
 team modify players color gray
 
 team modify dead prefix "Dead "
 team modify alive prefix "Alive "
 team modify nominated prefix "Nominated "
-team modify nominatedDead prefix "Nominated Dead"
+team modify nominatedDead prefix "Nominated Dead "
+team modify nominatedStoryteller prefix "Nominated Storyteller "
 team modify players prefix "Player "
 team modify storyteller nametagVisibility hideForOtherTeams 
