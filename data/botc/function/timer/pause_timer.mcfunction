@@ -1,0 +1,1 @@
+scoreboard players set .timerPaused variables 1
