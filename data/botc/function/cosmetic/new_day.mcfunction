@@ -1,0 +1,1 @@
+scoreboard players add .dayCount variables 1
