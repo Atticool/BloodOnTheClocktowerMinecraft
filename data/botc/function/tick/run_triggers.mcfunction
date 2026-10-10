@@ -8,5 +8,5 @@ execute as @a[scores={TriggerTimers=6}] run function botc:timer/set_timer_second
 execute as @a[scores={TriggerTimers=7}] run function botc:timer/set_timer_seconds {number: 30}
 execute as @a[scores={TriggerTimers=8}] run function botc:timer/set_timer_seconds {number: 0}
 
-scoreboard players set @a[scores={TriggerTimers=1}] TriggerTimers 0
+scoreboard players set @a[team=storyteller] TriggerTimers 0
 scoreboard players reset @a[team=!storyteller] TriggerTimers
