@@ -1,6 +1,7 @@
 {
     "values": [
         "botc:tick/decrease_timer",
+        "botc:tick/decrease_function_timers",
         "botc:tick/run_triggers"
     ]
 }

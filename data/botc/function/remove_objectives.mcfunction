@@ -1,3 +1,4 @@
 scoreboard objectives remove variables
 scoreboard objectives remove players
 scoreboard objectives remove housesPlayers
+function botc:triggers/remove_trigger_objectives
