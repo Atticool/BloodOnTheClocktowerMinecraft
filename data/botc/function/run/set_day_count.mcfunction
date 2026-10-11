@@ -1,0 +1,1 @@
+$scoreboard players set .dayCount variables $(number)
