@@ -1,1 +1,1 @@
-execute as @a if score @s nominations = .highestVote variables run tag @s add onTheBlock
+execute as @e[scores={nominations=0..}] if score @s nominations = .highestVote variables run tag @s add onTheBlock

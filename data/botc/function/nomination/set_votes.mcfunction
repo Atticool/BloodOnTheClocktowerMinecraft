@@ -1,1 +1,1 @@
-$scoreboard players set @a[tag=nominated] nominations $(number)
+$scoreboard players set @e[tag=nominated] nominations $(number)

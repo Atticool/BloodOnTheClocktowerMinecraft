@@ -9,7 +9,7 @@ $execute store result storage botc:temp_jh_$(number) house_x int 1 run scoreboar
 $execute store result storage botc:temp_jh_$(number) house_y int 1 run scoreboard players get .house_$(number)_y housesCoords
 $execute store result storage botc:temp_jh_$(number) house_z int 1 run scoreboard players get .house_$(number)_z housesCoords
 
-clear @p compass[rarity=rare]
+clear @s compass[rarity=rare]
 $function botc:give_compass with storage botc:temp_jh_$(number)
 
 $data remove storage botc:temp_jh_$(number) house_number

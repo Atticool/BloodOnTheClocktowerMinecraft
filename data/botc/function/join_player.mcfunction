@@ -1,5 +1,5 @@
 function botc:run/leave_storyteller
-$scoreboard players set @p players $(number)
-tag @p remove alive
-tag @p add player
-team join players @p
+$scoreboard players set @s players $(number)
+tag @s remove alive
+tag @s add player
+team join players @s

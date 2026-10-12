@@ -9,6 +9,8 @@ scoreboard players set 3 constants 3
 scoreboard players set 10 constants 10
 scoreboard players set 20 constants 20
 scoreboard players set 60 constants 60
+scoreboard players set maxPlayers constants 30
+scoreboard players set nominationTimerInterval constants 20
 scoreboard players set .timerPaused variables 1
 scoreboard players set .bellQueued variables 0
 scoreboard players set .bellTimer variables 0

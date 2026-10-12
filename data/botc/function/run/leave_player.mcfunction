@@ -1,3 +1,3 @@
-scoreboard players reset @p players
-tag @p remove player
-team leave @p
+scoreboard players reset @s players
+tag @s remove player
+team leave @s

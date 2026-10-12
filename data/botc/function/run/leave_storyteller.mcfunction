@@ -1,3 +1,3 @@
-scoreboard players reset @p players
-tag @p remove storyteller
-team leave @p
+scoreboard players reset @s players
+tag @s remove storyteller
+team leave @s

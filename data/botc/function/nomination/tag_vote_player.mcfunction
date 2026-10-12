@@ -1,0 +1,1 @@
+$tag @e[limit=1,scores={playersIndexed=$(number)}] add voted

@@ -1,1 +1,1 @@
-execute as @a[tag=nominated] run function botc:join_dead_from_alive
+execute as @e[tag=nominated] run function botc:join_dead_from_alive
