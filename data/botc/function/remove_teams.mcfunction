@@ -1,5 +1,12 @@
+team remove storyteller
+team remove traveller
+team remove deadTraveller
+team remove exiledTraveller
+team remove nominatedTraveller
+team remove nominatedDeadTraveller
 team remove alive
 team remove dead
 team remove nominated
 team remove nominatedDead
+team remove nominatedStoryteller
 team remove players
