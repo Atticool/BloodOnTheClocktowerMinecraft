@@ -10,10 +10,9 @@ execute if score .playerNumberIndexIterator variables > maxPlayers constants run
 execute if score .playerNumberIndexIterator variables > maxPlayers constants run scoreboard players reset .playerNumberIndexIteratorIterator variables
 execute if score .playerNumberIndexIterator variables > maxPlayers constants run scoreboard players reset .playerNumberIndexIterator variables
 execute if score .canVote variables matches 1 if score .nominationTimer variables < nominationTimerInterval constants run scoreboard players add .nominationTimer variables 1
+execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants run scoreboard players add .nominationIndex variables 1
+execute if score .nominationIndex variables = .playerCount variables run scoreboard players set .nominationIndex variables 0
 execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants store result storage botc:nomination_index number int 1.0 run scoreboard players get .nominationIndex variables
 execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants run function botc:nomination/tag_vote_player with storage botc:nomination_index
-execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants run scoreboard players add .nominationIndex variables 1
+execute if score .nominationTimer variables = nominationTimerInterval constants if score .nominationIndex variables = .nominatedPlayerIndex variables run schedule function botc:nomination/end_voting 19t
 execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants run scoreboard players set .nominationTimer variables 0
-execute if score .nominationIndex variables > .playerCount variables run data remove storage botc:nomination_index number
-execute if score .nominationIndex variables > .playerCount variables run function botc:nomination/end_voting
-execute if score .nominationIndex variables > .playerCount variables run scoreboard players set .nominationIndex variables 0
