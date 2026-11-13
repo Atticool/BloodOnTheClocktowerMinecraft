@@ -1,0 +1,1 @@
+$setblock ~ ~-1 ~ minecraft:repeating_command_block{auto:1,TrackOutput:0,conditionMet:1,Command:"function botc:setup/command_block_assign_player {number: $(number)}"}

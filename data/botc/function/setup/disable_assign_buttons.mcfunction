@@ -1,0 +1,1 @@
+scoreboard players set .assignPlayerButtonsEnabled variables 0

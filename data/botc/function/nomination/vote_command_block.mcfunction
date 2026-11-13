@@ -6,6 +6,11 @@ $execute as @e[limit=1,scores={players=$(number)},tag=alive] if block ~ ~2 ~ lev
 $execute as @e[limit=1,scores={players=$(number)},tag=dead,tag=!vote_spent] if block ~ ~2 ~ lever[powered=true] unless block ~ ~1 ~ minecraft:verdant_froglight run setblock ~ ~1 ~ minecraft:verdant_froglight
 $execute as @e[limit=1,scores={players=$(number)},tag=dead,tag=!vote_spent] if block ~ ~2 ~ lever[powered=false] unless block ~ ~1 ~ minecraft:warped_wart_block run setblock ~ ~1 ~ minecraft:warped_wart_block
 $execute as @e[limit=1,scores={players=$(number)},tag=vote_spent,tag=!all_vote] unless block ~ ~1 ~ minecraft:obsidian run setblock ~ ~1 ~ minecraft:obsidian
+$execute as @e[limit=1,scores={players=$(number)},tag=alive] if block ~ ~2 ~ lever[powered=true] unless block ~ ~5 ~ minecraft:shroomlight run setblock ~ ~5 ~ minecraft:shroomlight
+$execute as @e[limit=1,scores={players=$(number)},tag=alive] if block ~ ~2 ~ lever[powered=false] unless block ~ ~5 ~ minecraft:air run setblock ~ ~5 ~ minecraft:air
+$execute as @e[limit=1,scores={players=$(number)},tag=dead,tag=!vote_spent] if block ~ ~2 ~ lever[powered=true] unless block ~ ~5 ~ minecraft:verdant_froglight run setblock ~ ~5 ~ minecraft:verdant_froglight
+$execute as @e[limit=1,scores={players=$(number)},tag=dead,tag=!vote_spent] if block ~ ~2 ~ lever[powered=false] unless block ~ ~5 ~ minecraft:air run setblock ~ ~5 ~ minecraft:air
+$execute as @e[limit=1,scores={players=$(number)},tag=vote_spent,tag=!all_vote] unless block ~ ~5 ~ minecraft:air run setblock ~ ~5 ~ minecraft:air
 $execute as @e[limit=1,scores={players=$(number)},tag=all_vote] if block ~ ~2 ~ lever[powered=true] unless block ~ ~1 ~ minecraft:glowstone run setblock ~ ~1 ~ minecraft:glowstone
 $execute as @e[limit=1,scores={players=$(number)},tag=all_vote] if block ~ ~2 ~ lever[powered=false] unless block ~ ~1 ~ minecraft:end_stone run setblock ~ ~1 ~ minecraft:end_stone
 

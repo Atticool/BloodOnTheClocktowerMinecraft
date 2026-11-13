@@ -6,3 +6,4 @@ function botc:create_objectives
 function botc:create_teams
 function botc:show/players
 tag @a remove player
+scoreboard players set .assignPlayerButtonsEnabled variables 1
