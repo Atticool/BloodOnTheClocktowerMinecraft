@@ -1,3 +1,4 @@
+data merge storage botc:book/timer {item: {hotbarSlot: 0}}
 data merge storage botc:book/timer {item: {components: {"minecraft:item_model": "minecraft:clock"}}}
 data merge storage botc:book/timer {item: {components: {"minecraft:written_book_content": {author: "The Storyteller", title: {raw: "Timer Control"}, resolved: 1b}}}}
 data merge storage botc:book/timer {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "Timer:\n"}}]}}}}
