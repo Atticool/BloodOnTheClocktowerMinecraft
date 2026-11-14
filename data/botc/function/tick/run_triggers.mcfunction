@@ -8,6 +8,8 @@ execute as @a[scores={TriggerTimers=6}] run function botc:timer/set_timer_second
 execute as @a[scores={TriggerTimers=7}] run function botc:timer/set_timer_seconds {number: 30}
 execute as @a[scores={TriggerTimers=8}] run function botc:timer/set_timer_seconds {number: 0}
 execute as @a[scores={TriggerTimers=9}] run function botc:cosmetic/new_day
+execute as @a[scores={TriggerTimers=10}] run function botc:cosmetic/announce_dusk
+execute as @a[scores={TriggerTimers=11}] run function botc:cosmetic/announce_night
 
 scoreboard players set @a[tag=storyteller] TriggerTimers 0
 scoreboard players reset @a[tag=!storyteller] TriggerTimers
