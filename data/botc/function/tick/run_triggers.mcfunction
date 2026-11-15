@@ -108,6 +108,10 @@ execute as @a[scores={TriggerMisc=1}] run function botc:setup/enable_assign_butt
 execute as @a[scores={TriggerMisc=2}] run function botc:setup/disable_assign_buttons
 execute as @a[scores={TriggerMisc=3}] run function botc:run/reset_game
 execute as @a[scores={TriggerMisc=4}] run function botc:run/restart_game
+execute as @a[scores={TriggerMisc=5}] run function botc:show/players
+execute as @a[scores={TriggerMisc=6}] run function botc:show/nominations
+execute as @a[scores={TriggerMisc=7}] run function botc:show/houses
+execute as @a[scores={TriggerMisc=8}] run function botc:show/variables
 
 scoreboard players set @a[tag=storyteller] TriggerTimers 0
 scoreboard players set @a[tag=storyteller] TriggerTeleports 0
