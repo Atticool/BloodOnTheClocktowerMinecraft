@@ -3,3 +3,4 @@ scoreboard players reset @e nominations
 scoreboard players reset .nominatedPlayerNumber
 scoreboard players reset .nominationTimer
 tag @e remove nominated
+function botc:nomination/remove_nomination_objectives

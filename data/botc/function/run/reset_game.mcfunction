@@ -1,4 +1,4 @@
-function botc:nomination/unset_nominated_player
+function botc:nomination/reset_voting
 function botc:remove_groups
 function botc:remove_objectives
 function botc:remove_teams
