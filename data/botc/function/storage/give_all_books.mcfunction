@@ -1,0 +1,5 @@
+function botc:storage/give_timer_book
+function botc:storage/give_player_house_tp_book
+function botc:storage/give_kill_player_book
+function botc:storage/give_revive_player_book
+function botc:storage/give_misc_book

@@ -1,1 +1,5 @@
 scoreboard objectives add TriggerTimers trigger TriggerTimers
+scoreboard objectives add TriggerTeleports trigger TriggerTeleports
+scoreboard objectives add TriggerKills trigger TriggerKills
+scoreboard objectives add TriggerRevives trigger TriggerRevives
+scoreboard objectives add TriggerMisc trigger TriggerMisc

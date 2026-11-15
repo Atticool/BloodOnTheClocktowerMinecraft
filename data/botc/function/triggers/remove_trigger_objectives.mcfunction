@@ -1,1 +1,5 @@
 scoreboard objectives remove TriggerTimers
+scoreboard objectives remove TriggerTeleports
+scoreboard objectives remove TriggerKills
+scoreboard objectives remove TriggerRevives
+scoreboard objectives remove TriggerMisc

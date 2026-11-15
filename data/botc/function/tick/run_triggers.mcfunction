@@ -1,4 +1,8 @@
 scoreboard players enable @a[tag=storyteller] TriggerTimers
+scoreboard players enable @a[tag=storyteller] TriggerTeleports
+scoreboard players enable @a[tag=storyteller] TriggerKills
+scoreboard players enable @a[tag=storyteller] TriggerRevives
+scoreboard players enable @a[tag=storyteller] TriggerMisc
 execute as @a[scores={TriggerTimers=1}] run function botc:timer/pause_timer
 execute as @a[scores={TriggerTimers=2}] run function botc:timer/resume_timer
 execute as @a[scores={TriggerTimers=3}] run function botc:timer/set_timer_seconds {number: 600}
@@ -7,9 +11,111 @@ execute as @a[scores={TriggerTimers=5}] run function botc:timer/set_timer_second
 execute as @a[scores={TriggerTimers=6}] run function botc:timer/set_timer_seconds {number: 60}
 execute as @a[scores={TriggerTimers=7}] run function botc:timer/set_timer_seconds {number: 30}
 execute as @a[scores={TriggerTimers=8}] run function botc:timer/set_timer_seconds {number: 0}
-execute as @a[scores={TriggerTimers=9}] run function botc:cosmetic/new_day
+execute as @a[scores={TriggerTimers=9}] run function botc:cosmetic/announce_day
 execute as @a[scores={TriggerTimers=10}] run function botc:cosmetic/announce_dusk
 execute as @a[scores={TriggerTimers=11}] run function botc:cosmetic/announce_night
+execute as @a[scores={TriggerTeleports=1}] run function botc:run/tp_player_house {number: 1}
+execute as @a[scores={TriggerTeleports=2}] run function botc:run/tp_player_house {number: 2}
+execute as @a[scores={TriggerTeleports=3}] run function botc:run/tp_player_house {number: 3}
+execute as @a[scores={TriggerTeleports=4}] run function botc:run/tp_player_house {number: 4}
+execute as @a[scores={TriggerTeleports=5}] run function botc:run/tp_player_house {number: 5}
+execute as @a[scores={TriggerTeleports=6}] run function botc:run/tp_player_house {number: 6}
+execute as @a[scores={TriggerTeleports=7}] run function botc:run/tp_player_house {number: 7}
+execute as @a[scores={TriggerTeleports=8}] run function botc:run/tp_player_house {number: 8}
+execute as @a[scores={TriggerTeleports=9}] run function botc:run/tp_player_house {number: 9}
+execute as @a[scores={TriggerTeleports=10}] run function botc:run/tp_player_house {number: 10}
+execute as @a[scores={TriggerTeleports=11}] run function botc:run/tp_player_house {number: 11}
+execute as @a[scores={TriggerTeleports=12}] run function botc:run/tp_player_house {number: 12}
+execute as @a[scores={TriggerTeleports=13}] run function botc:run/tp_player_house {number: 13}
+execute as @a[scores={TriggerTeleports=14}] run function botc:run/tp_player_house {number: 14}
+execute as @a[scores={TriggerTeleports=15}] run function botc:run/tp_player_house {number: 15}
+execute as @a[scores={TriggerTeleports=16}] run function botc:run/tp_player_house {number: 16}
+execute as @a[scores={TriggerTeleports=17}] run function botc:run/tp_player_house {number: 17}
+execute as @a[scores={TriggerTeleports=18}] run function botc:run/tp_player_house {number: 18}
+execute as @a[scores={TriggerTeleports=19}] run function botc:run/tp_player_house {number: 19}
+execute as @a[scores={TriggerTeleports=20}] run function botc:run/tp_player_house {number: 20}
+execute as @a[scores={TriggerTeleports=21}] run function botc:run/tp_player_house {number: 21}
+execute as @a[scores={TriggerTeleports=22}] run function botc:run/tp_player_house {number: 22}
+execute as @a[scores={TriggerTeleports=23}] run function botc:run/tp_player_house {number: 23}
+execute as @a[scores={TriggerTeleports=24}] run function botc:run/tp_player_house {number: 24}
+execute as @a[scores={TriggerTeleports=25}] run function botc:run/tp_player_house {number: 25}
+execute as @a[scores={TriggerTeleports=26}] run function botc:run/tp_player_house {number: 26}
+execute as @a[scores={TriggerTeleports=27}] run function botc:run/tp_player_house {number: 27}
+execute as @a[scores={TriggerTeleports=28}] run function botc:run/tp_player_house {number: 28}
+execute as @a[scores={TriggerTeleports=29}] run function botc:run/tp_player_house {number: 29}
+execute as @a[scores={TriggerTeleports=30}] run function botc:run/tp_player_house {number: 30}
+execute as @a[scores={TriggerKills=1}] run function botc:run/kill_player {number: 1}
+execute as @a[scores={TriggerKills=2}] run function botc:run/kill_player {number: 2}
+execute as @a[scores={TriggerKills=3}] run function botc:run/kill_player {number: 3}
+execute as @a[scores={TriggerKills=4}] run function botc:run/kill_player {number: 4}
+execute as @a[scores={TriggerKills=5}] run function botc:run/kill_player {number: 5}
+execute as @a[scores={TriggerKills=6}] run function botc:run/kill_player {number: 6}
+execute as @a[scores={TriggerKills=7}] run function botc:run/kill_player {number: 7}
+execute as @a[scores={TriggerKills=8}] run function botc:run/kill_player {number: 8}
+execute as @a[scores={TriggerKills=9}] run function botc:run/kill_player {number: 9}
+execute as @a[scores={TriggerKills=10}] run function botc:run/kill_player {number: 10}
+execute as @a[scores={TriggerKills=11}] run function botc:run/kill_player {number: 11}
+execute as @a[scores={TriggerKills=12}] run function botc:run/kill_player {number: 12}
+execute as @a[scores={TriggerKills=13}] run function botc:run/kill_player {number: 13}
+execute as @a[scores={TriggerKills=14}] run function botc:run/kill_player {number: 14}
+execute as @a[scores={TriggerKills=15}] run function botc:run/kill_player {number: 15}
+execute as @a[scores={TriggerKills=16}] run function botc:run/kill_player {number: 16}
+execute as @a[scores={TriggerKills=17}] run function botc:run/kill_player {number: 17}
+execute as @a[scores={TriggerKills=18}] run function botc:run/kill_player {number: 18}
+execute as @a[scores={TriggerKills=19}] run function botc:run/kill_player {number: 19}
+execute as @a[scores={TriggerKills=20}] run function botc:run/kill_player {number: 20}
+execute as @a[scores={TriggerKills=21}] run function botc:run/kill_player {number: 21}
+execute as @a[scores={TriggerKills=22}] run function botc:run/kill_player {number: 22}
+execute as @a[scores={TriggerKills=23}] run function botc:run/kill_player {number: 23}
+execute as @a[scores={TriggerKills=24}] run function botc:run/kill_player {number: 24}
+execute as @a[scores={TriggerKills=25}] run function botc:run/kill_player {number: 25}
+execute as @a[scores={TriggerKills=26}] run function botc:run/kill_player {number: 26}
+execute as @a[scores={TriggerKills=27}] run function botc:run/kill_player {number: 27}
+execute as @a[scores={TriggerKills=28}] run function botc:run/kill_player {number: 28}
+execute as @a[scores={TriggerKills=29}] run function botc:run/kill_player {number: 29}
+execute as @a[scores={TriggerKills=30}] run function botc:run/kill_player {number: 30}
+execute as @a[scores={TriggerRevives=1}] run function botc:run/revive_player {number: 1}
+execute as @a[scores={TriggerRevives=2}] run function botc:run/revive_player {number: 2}
+execute as @a[scores={TriggerRevives=3}] run function botc:run/revive_player {number: 3}
+execute as @a[scores={TriggerRevives=4}] run function botc:run/revive_player {number: 4}
+execute as @a[scores={TriggerRevives=5}] run function botc:run/revive_player {number: 5}
+execute as @a[scores={TriggerRevives=6}] run function botc:run/revive_player {number: 6}
+execute as @a[scores={TriggerRevives=7}] run function botc:run/revive_player {number: 7}
+execute as @a[scores={TriggerRevives=8}] run function botc:run/revive_player {number: 8}
+execute as @a[scores={TriggerRevives=9}] run function botc:run/revive_player {number: 9}
+execute as @a[scores={TriggerRevives=10}] run function botc:run/revive_player {number: 10}
+execute as @a[scores={TriggerRevives=11}] run function botc:run/revive_player {number: 11}
+execute as @a[scores={TriggerRevives=12}] run function botc:run/revive_player {number: 12}
+execute as @a[scores={TriggerRevives=13}] run function botc:run/revive_player {number: 13}
+execute as @a[scores={TriggerRevives=14}] run function botc:run/revive_player {number: 14}
+execute as @a[scores={TriggerRevives=15}] run function botc:run/revive_player {number: 15}
+execute as @a[scores={TriggerRevives=16}] run function botc:run/revive_player {number: 16}
+execute as @a[scores={TriggerRevives=17}] run function botc:run/revive_player {number: 17}
+execute as @a[scores={TriggerRevives=18}] run function botc:run/revive_player {number: 18}
+execute as @a[scores={TriggerRevives=19}] run function botc:run/revive_player {number: 19}
+execute as @a[scores={TriggerRevives=20}] run function botc:run/revive_player {number: 20}
+execute as @a[scores={TriggerRevives=21}] run function botc:run/revive_player {number: 21}
+execute as @a[scores={TriggerRevives=22}] run function botc:run/revive_player {number: 22}
+execute as @a[scores={TriggerRevives=23}] run function botc:run/revive_player {number: 23}
+execute as @a[scores={TriggerRevives=24}] run function botc:run/revive_player {number: 24}
+execute as @a[scores={TriggerRevives=25}] run function botc:run/revive_player {number: 25}
+execute as @a[scores={TriggerRevives=26}] run function botc:run/revive_player {number: 26}
+execute as @a[scores={TriggerRevives=27}] run function botc:run/revive_player {number: 27}
+execute as @a[scores={TriggerRevives=28}] run function botc:run/revive_player {number: 28}
+execute as @a[scores={TriggerRevives=29}] run function botc:run/revive_player {number: 29}
+execute as @a[scores={TriggerRevives=30}] run function botc:run/revive_player {number: 30}
+execute as @a[scores={TriggerMisc=1}] run function botc:setup/enable_assign_buttons
+execute as @a[scores={TriggerMisc=2}] run function botc:setup/disable_assign_buttons
+execute as @a[scores={TriggerMisc=3}] run function botc:run/reset_game
+execute as @a[scores={TriggerMisc=4}] run function botc:run/restart_game
 
 scoreboard players set @a[tag=storyteller] TriggerTimers 0
+scoreboard players set @a[tag=storyteller] TriggerTeleports 0
+scoreboard players set @a[tag=storyteller] TriggerKills 0
+scoreboard players set @a[tag=storyteller] TriggerRevives 0
+scoreboard players set @a[tag=storyteller] TriggerMisc 0
 scoreboard players reset @a[tag=!storyteller] TriggerTimers
+scoreboard players reset @a[tag=!storyteller] TriggerTeleports
+scoreboard players reset @a[tag=!storyteller] TriggerKills
+scoreboard players reset @a[tag=!storyteller] TriggerRevives
+scoreboard players reset @a[tag=!storyteller] TriggerMisc
