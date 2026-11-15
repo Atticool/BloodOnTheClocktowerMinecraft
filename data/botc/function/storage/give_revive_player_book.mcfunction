@@ -1,7 +1,7 @@
 data merge storage botc:book/revive {item: {hotbarSlot: 3}}
 data merge storage botc:book/revive {item: {components: {"minecraft:item_model": "minecraft:glistering_melon_slice"}}}
 data merge storage botc:book/revive {item: {components: {"minecraft:written_book_content": {author: "The Storyteller", title: {raw: "The Life Note"}, resolved: 1b}}}}
-data merge storage botc:book/revive {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "Revive (Player Number): (P = Player)\n"}}]}}}}
+data merge storage botc:book/revive {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "Revive Players:\n (P = Player)\n"}}]}}}}
 function botc:storage/add_book_line {storage: "botc:book/revive",data: {text: "P01   ", bold: 1b, color: "#3eab4e", click_event: {command: "/trigger TriggerRevives set 1", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/revive",data: {text: "P13   ", bold: 1b, color: "#3eab4e", click_event: {command: "/trigger TriggerRevives set 13", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/revive",data: {text: "P26   \n", bold: 1b, color: "#3eab4e", click_event: {command: "/trigger TriggerRevives set 26", action: "run_command"}}}

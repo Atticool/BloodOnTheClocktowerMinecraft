@@ -1,7 +1,7 @@
 data merge storage botc:book/kill {item: {hotbarSlot: 2}}
 data merge storage botc:book/kill {item: {components: {"minecraft:item_model": "minecraft:wither_rose"}}}
 data merge storage botc:book/kill {item: {components: {"minecraft:written_book_content": {author: "The Storyteller", title: {raw: "The Death Note"}, resolved: 1b}}}}
-data merge storage botc:book/kill {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "Kill (Player Number): (P = Player)\n"}}]}}}}
+data merge storage botc:book/kill {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "Kill Players:\n (P = Player)\n"}}]}}}}
 function botc:storage/add_book_line {storage: "botc:book/kill",data: {text: "P01   ", bold: 1b, color: "#ab3e62", click_event: {command: "/trigger TriggerKills set 1", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/kill",data: {text: "P13   ", bold: 1b, color: "#ab3e62", click_event: {command: "/trigger TriggerKills set 13", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/kill",data: {text: "P26   \n", bold: 1b, color: "#ab3e62", click_event: {command: "/trigger TriggerKills set 26", action: "run_command"}}}

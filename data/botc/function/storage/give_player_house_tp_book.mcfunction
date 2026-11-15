@@ -1,7 +1,7 @@
 data merge storage botc:book/tp {item: {hotbarSlot: 1}}
 data merge storage botc:book/tp {item: {components: {"minecraft:item_model": "minecraft:ender_pearl"}}}
 data merge storage botc:book/tp {item: {components: {"minecraft:written_book_content": {author: "The Storyteller", title: {raw: "Teleports"}, resolved: 1b}}}}
-data merge storage botc:book/tp {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "TP (Player Number) House: (P = Player)\n"}}]}}}}
+data merge storage botc:book/tp {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "TP House:\n(P = Player)\n"}}]}}}}
 function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "P01   ", bold: 1b, color: "#3e4bab", click_event: {command: "/trigger TriggerTeleports set 1", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "P13   ", bold: 1b, color: "#3e4bab", click_event: {command: "/trigger TriggerTeleports set 13", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "P26   \n", bold: 1b, color: "#3e4bab", click_event: {command: "/trigger TriggerTeleports set 26", action: "run_command"}}}
