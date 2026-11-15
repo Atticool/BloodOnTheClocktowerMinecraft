@@ -1,0 +1,1 @@
+scoreboard players set .flagColour variables 0
