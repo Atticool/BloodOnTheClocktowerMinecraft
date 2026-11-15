@@ -112,6 +112,8 @@ execute as @a[scores={TriggerMisc=5}] run function botc:show/players
 execute as @a[scores={TriggerMisc=6}] run function botc:show/nominations
 execute as @a[scores={TriggerMisc=7}] run function botc:show/houses
 execute as @a[scores={TriggerMisc=8}] run function botc:show/variables
+execute as @a[scores={TriggerMisc=9}] run effect give @s minecraft:invisibility infinite 0 true 
+execute as @a[scores={TriggerMisc=10}] run effect clear @s minecraft:invisibility 
 
 scoreboard players set @a[tag=storyteller] TriggerTimers 0
 scoreboard players set @a[tag=storyteller] TriggerTeleports 0

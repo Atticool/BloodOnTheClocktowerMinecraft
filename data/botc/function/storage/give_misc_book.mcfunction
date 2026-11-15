@@ -12,6 +12,9 @@ function botc:storage/add_book_line {storage: "botc:book/misc",data: {text: "Sho
 function botc:storage/add_book_line {storage: "botc:book/misc",data: {text: "Show Nominations\n", bold: 1b, color: "#295c6e", click_event: {command: "/trigger TriggerMisc set 6", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/misc",data: {text: "Show Houses\n", bold: 1b, color: "#295c6e", click_event: {command: "/trigger TriggerMisc set 7", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/misc",data: {text: "Show Variables\n", bold: 1b, color: "#295c6e", click_event: {command: "/trigger TriggerMisc set 8", action: "run_command"}}}
+function botc:storage/add_book_line {storage: "botc:book/misc",data: {text: "\n"}}
+function botc:storage/add_book_line {storage: "botc:book/misc",data: {text: "Give Invisibility\n", bold: 1b, color: "#32934B", click_event: {command: "/trigger TriggerMisc set 9", action: "run_command"}}}
+function botc:storage/add_book_line {storage: "botc:book/misc",data: {text: "Remove Invisibility\n", bold: 1b, color: "#D32A32", click_event: {command: "/trigger TriggerMisc set 10", action: "run_command"}}}
 
 function botc:storage/any_book with storage botc:book/misc item
 data remove storage botc:book/misc item
