@@ -1,1 +1,2 @@
 scoreboard players set .assignPlayerButtonsEnabled variables 0
+function botc:move_players_to_alive
