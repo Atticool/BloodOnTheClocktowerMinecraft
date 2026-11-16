@@ -1,1 +1,2 @@
 $execute as @e[scores={players=$(number)}] run function botc:join_dead_from_alive
+$tellraw @a ["",{"text":"Storyteller: ","color":"aqua"},{"selector": "@e[scores={players=$(number)}]"},{"text": " (Player $(number))"}, {"text":" has died!","color":"white"}]

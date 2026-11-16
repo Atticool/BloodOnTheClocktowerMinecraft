@@ -1,7 +1,8 @@
 data merge storage botc:book/nominate {item: {hotbarSlot: 5}}
 data merge storage botc:book/nominate {item: {components: {"minecraft:item_model": "minecraft:golden_spear"}}}
 data merge storage botc:book/nominate {item: {components: {"minecraft:written_book_content": {author: "The Storyteller", title: {raw: "Nominations"}, resolved: 1b}}}}
-data merge storage botc:book/nominate {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "Nominate Players:\n(P = Player)\n"}}]}}}}
+data merge storage botc:book/nominate {item: {components: {"minecraft:written_book_content": {pages: [{raw: {extra: [], text: "Nominate Players:\n(P = Player)  "}}]}}}}
+function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "Unset\n", bold: 1b, color: "#D32A32", click_event: {command: "/trigger TriggerNominate set 34", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "P01   ", bold: 1b, color: "#a87d32", click_event: {command: "/trigger TriggerNominate set 01", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "P11   ", bold: 1b, color: "#a87d32", click_event: {command: "/trigger TriggerNominate set 11", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "P21   \n", bold: 1b, color: "#a87d32", click_event: {command: "/trigger TriggerNominate set 21", action: "run_command"}}}

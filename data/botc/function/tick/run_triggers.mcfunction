@@ -138,6 +138,7 @@ execute if entity @a[scores={TriggerNominate=30}] as @a[scores={TriggerNominate=
 execute if entity @a[scores={TriggerNominate=31}] as @a[scores={TriggerNominate=31}] run function botc:nomination/start_voting
 execute if entity @a[scores={TriggerNominate=32}] as @a[scores={TriggerNominate=32}] run function botc:nomination/reset_voting
 execute if entity @a[scores={TriggerNominate=33}] as @a[scores={TriggerNominate=33}] run function botc:nomination/kill_nominated_player
+execute if entity @a[scores={TriggerNominate=34}] as @a[scores={TriggerNominate=34}] run function botc:nomination/unset_nominated_player
 execute if entity @a[scores={TriggerMisc=1}] as @a[scores={TriggerMisc=1}] run function botc:setup/enable_assign_buttons
 execute if entity @a[scores={TriggerMisc=2}] as @a[scores={TriggerMisc=2}] run function botc:setup/disable_assign_buttons
 execute if entity @a[scores={TriggerMisc=3}] as @a[scores={TriggerMisc=3}] run function botc:cosmetic/increment_day_count

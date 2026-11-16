@@ -5,3 +5,7 @@ $execute store result entity @e[type=armor_stand,limit=1,tag=tp_house] Pos[1] in
 $execute store result entity @e[type=armor_stand,limit=1,tag=tp_house] Pos[2] int 1 run scoreboard players get .house_$(number)_z housesCoords
 tp @s @e[limit=1,type=armor_stand,tag=tp_house]
 kill @e[type=armor_stand,tag=tp_house]
+$scoreboard players set .tempHouseNum variables $(number)
+$execute if score 10 constants > .tempHouseNum variables run voicechat join 0$(number)
+$execute if score 10 constants <= .tempHouseNum variables run voicechat join $(number)
+scoreboard players reset .tempHouseNum
