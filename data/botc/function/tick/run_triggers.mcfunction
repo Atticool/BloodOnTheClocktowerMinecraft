@@ -46,7 +46,7 @@ execute if entity @a[scores={TriggerTeleports=28}] as @a[scores={TriggerTeleport
 execute if entity @a[scores={TriggerTeleports=29}] as @a[scores={TriggerTeleports=29}] run function botc:run/tp_player_house {number: 29}
 execute if entity @a[scores={TriggerTeleports=30}] as @a[scores={TriggerTeleports=30}] run function botc:run/tp_player_house {number: 30}
 # coords need to be changed based on map, temp solution for now
-execute if entity @a[scores={TriggerTeleports=31}] as @a[scores={TriggerTeleports=30}] run tp 100 14 -134
+execute if entity @a[scores={TriggerTeleports=31}] as @a[scores={TriggerTeleports=31}] run tp 100 14 -134
 execute if entity @a[scores={TriggerKills=1}] as @a[scores={TriggerKills=1}] run function botc:run/kill_player {number: 1}
 execute if entity @a[scores={TriggerKills=2}] as @a[scores={TriggerKills=2}] run function botc:run/kill_player {number: 2}
 execute if entity @a[scores={TriggerKills=3}] as @a[scores={TriggerKills=3}] run function botc:run/kill_player {number: 3}
