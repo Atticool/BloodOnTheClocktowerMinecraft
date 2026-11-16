@@ -1,0 +1,1 @@
+$tellraw @s "Day Count is now $(number)"

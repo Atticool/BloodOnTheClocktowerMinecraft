@@ -1,1 +1,1 @@
-execute as @e[tag=player] run function botc:join_alive_from_player
+execute as @e[tag=player,tag=!dead,tag=!alive] run function botc:join_alive_from_player
