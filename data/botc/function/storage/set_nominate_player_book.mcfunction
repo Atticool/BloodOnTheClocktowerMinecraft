@@ -35,4 +35,5 @@ function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: 
 function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "P30   \n", bold: 1b, color: "#02051c", click_event: {command: "/trigger TriggerNominate set 30", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "Run Vote  ", bold: 0b, color: "#32934B", click_event: {command: "/trigger TriggerNominate set 31", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "Reset Votes\n", bold: 0b, color: "#D32A32", click_event: {command: "/trigger TriggerNominate set 32", action: "run_command"}}}
-function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "Execute Nominated   \n", bold: 1b, color: "#D32A32", click_event: {command: "/trigger TriggerNominate set 33", action: "run_command"}}}
+function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "Instakill   ", bold: 0b, color: "#D32A32", click_event: {command: "/trigger TriggerNominate set 33", action: "run_command"}}}
+function botc:storage/add_book_line {storage: "botc:book/nominate",data: {text: "Execute Top\n", bold: 0b, color: "#D32A32", click_event: {command: "/trigger TriggerNominate set 35", action: "run_command"}}}
