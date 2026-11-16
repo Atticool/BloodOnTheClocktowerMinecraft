@@ -2,6 +2,7 @@ scoreboard players enable @a[tag=storyteller] TriggerTimers
 scoreboard players enable @a[tag=storyteller] TriggerTeleports
 scoreboard players enable @a[tag=storyteller] TriggerKills
 scoreboard players enable @a[tag=storyteller] TriggerRevives
+scoreboard players enable @a[tag=storyteller] TriggerNominate
 scoreboard players enable @a[tag=storyteller] TriggerMisc
 execute if entity @a[scores={TriggerTimers=1}] as @a[scores={TriggerTimers=1}] run function botc:timer/pause_timer
 execute if entity @a[scores={TriggerTimers=2}] as @a[scores={TriggerTimers=2}] run function botc:timer/resume_timer
@@ -152,9 +153,11 @@ scoreboard players set @a[tag=storyteller] TriggerTimers 0
 scoreboard players set @a[tag=storyteller] TriggerTeleports 0
 scoreboard players set @a[tag=storyteller] TriggerKills 0
 scoreboard players set @a[tag=storyteller] TriggerRevives 0
+scoreboard players set @a[tag=storyteller] TriggerNominate 0
 scoreboard players set @a[tag=storyteller] TriggerMisc 0
 scoreboard players reset @a[tag=!storyteller] TriggerTimers
 scoreboard players reset @a[tag=!storyteller] TriggerTeleports
 scoreboard players reset @a[tag=!storyteller] TriggerKills
+scoreboard players reset @a[tag=!storyteller] TriggerNominate
 scoreboard players reset @a[tag=!storyteller] TriggerRevives
 scoreboard players reset @a[tag=!storyteller] TriggerMisc
