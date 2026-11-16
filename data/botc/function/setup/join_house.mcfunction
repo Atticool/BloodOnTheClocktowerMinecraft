@@ -1,4 +1,4 @@
-$execute store result storage botc:temp_jh_$(number) player_number int 1 run scoreboard players get @p players  
+$execute store result storage botc:temp_jh_$(number) player_number int 1 run scoreboard players get @s players  
 $data merge storage botc:temp_jh_$(number) {house_number: $(number)}
 $tellraw @p "Joining House $(number)"
 #Houses and Players: house_$(number)    player
