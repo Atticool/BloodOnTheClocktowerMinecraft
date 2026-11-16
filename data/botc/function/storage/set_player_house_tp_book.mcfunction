@@ -32,4 +32,5 @@ function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "P29  
 function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "P10   ", bold: 1b, color: "#02051c", click_event: {command: "/trigger TriggerTeleports set 10", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "P20   ", bold: 1b, color: "#02051c", click_event: {command: "/trigger TriggerTeleports set 20", action: "run_command"}}}
 function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "P30   \n", bold: 1b, color: "#02051c", click_event: {command: "/trigger TriggerTeleports set 30", action: "run_command"}}}
+function botc:storage/add_book_line {storage: "botc:book/tp",data: {text: "TP to Town   \n", bold: 1b, color: "#32934B", click_event: {command: "/trigger TriggerTeleports set 31", action: "run_command"}}}
 
