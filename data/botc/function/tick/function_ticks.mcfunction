@@ -14,5 +14,6 @@ execute if score .canVote variables matches 1 if score .nominationTimer variable
 execute if score .nominationIndex variables = .playerCount variables run scoreboard players set .nominationIndex variables 0
 execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants store result storage botc:nomination_index number int 1.0 run scoreboard players get .nominationIndex variables
 execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants run function botc:nomination/tag_vote_player with storage botc:nomination_index
+# 19t = 20 - 1
 execute if score .nominationTimer variables = nominationTimerInterval constants if score .nominationIndex variables = .nominatedPlayerIndex variables run schedule function botc:nomination/end_voting 19t
 execute if score .canVote variables matches 1 if score .nominationTimer variables = nominationTimerInterval constants run scoreboard players set .nominationTimer variables 0

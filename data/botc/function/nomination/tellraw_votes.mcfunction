@@ -1,0 +1,1 @@
+$tellraw @a ["",{"text":"Storyteller: ","color":"aqua"},{"text":"$(number) ","color":"gold"},{"text":"players voted.","color":"white"}]
