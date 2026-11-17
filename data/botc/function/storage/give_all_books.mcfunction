@@ -5,3 +5,4 @@ function botc:storage/give_revive_player_book
 function botc:storage/give_misc_book
 function botc:storage/give_nominate_player_book
 function botc:storage/give_everything_book
+function botc:storage/give_map_specific_book
