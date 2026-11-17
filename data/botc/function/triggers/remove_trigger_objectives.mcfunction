@@ -4,3 +4,4 @@ scoreboard objectives remove TriggerKills
 scoreboard objectives remove TriggerRevives
 scoreboard objectives remove TriggerMisc
 scoreboard objectives remove TriggerNominate
+scoreboard objectives remove TriggerMapSpecific

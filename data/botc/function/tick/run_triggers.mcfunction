@@ -4,6 +4,7 @@ scoreboard players enable @a[tag=storyteller] TriggerKills
 scoreboard players enable @a[tag=storyteller] TriggerRevives
 scoreboard players enable @a[tag=storyteller] TriggerNominate
 scoreboard players enable @a[tag=storyteller] TriggerMisc
+scoreboard players enable @a[tag=storyteller] TriggerMapSpecific
 execute if entity @a[scores={TriggerTimers=1}] as @a[scores={TriggerTimers=1}] run function botc:timer/pause_timer
 execute if entity @a[scores={TriggerTimers=2}] as @a[scores={TriggerTimers=2}] run function botc:timer/resume_timer
 execute if entity @a[scores={TriggerTimers=3}] as @a[scores={TriggerTimers=3}] run function botc:timer/set_timer_seconds {number: 600}
@@ -152,6 +153,10 @@ execute if entity @a[scores={TriggerMisc=7}] as @a[scores={TriggerMisc=7}] run f
 execute if entity @a[scores={TriggerMisc=8}] as @a[scores={TriggerMisc=8}] run function botc:show/nominations
 execute if entity @a[scores={TriggerMisc=9}] as @a[scores={TriggerMisc=9}] run effect give @s minecraft:invisibility infinite 0 true 
 execute if entity @a[scores={TriggerMisc=10}] as @a[scores={TriggerMisc=10}] run effect clear @s minecraft:invisibility 
+execute if entity @a[scores={TriggerMapSpecific=1}] as @a[scores={TriggerMapSpecific=1}] run function botc:map_specific/force_join_town 
+execute if entity @a[scores={TriggerMapSpecific=2}] as @a[scores={TriggerMapSpecific=2}] run function botc:map_specific/red_flag 
+execute if entity @a[scores={TriggerMapSpecific=3}] as @a[scores={TriggerMapSpecific=3}] run function botc:map_specific/blue_flag
+execute if entity @a[scores={TriggerMapSpecific=4}] as @a[scores={TriggerMapSpecific=4}] run function botc:map_specific/no_flag
 
 scoreboard players set @a[tag=storyteller] TriggerTimers 0
 scoreboard players set @a[tag=storyteller] TriggerTeleports 0
@@ -159,9 +164,11 @@ scoreboard players set @a[tag=storyteller] TriggerKills 0
 scoreboard players set @a[tag=storyteller] TriggerRevives 0
 scoreboard players set @a[tag=storyteller] TriggerNominate 0
 scoreboard players set @a[tag=storyteller] TriggerMisc 0
+scoreboard players set @a[tag=storyteller] TriggerMapSpecific 0
 scoreboard players reset @a[tag=!storyteller] TriggerTimers
 scoreboard players reset @a[tag=!storyteller] TriggerTeleports
 scoreboard players reset @a[tag=!storyteller] TriggerKills
 scoreboard players reset @a[tag=!storyteller] TriggerNominate
 scoreboard players reset @a[tag=!storyteller] TriggerRevives
 scoreboard players reset @a[tag=!storyteller] TriggerMisc
+scoreboard players reset @a[tag=!storyteller] TriggerMapSpecific
